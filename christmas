@@ -5,6 +5,7 @@ _G.GUSE_SPRINKLERS = true
 _G.GDO_HOLIDAY_EVENT = true
 _G.GCONVERT_SNOWFLAKES = true
 _G.GDO_SNOWSTORM_SURVIVAL = true
+_G.GLOOTBOXES = {"Snowflake Gift"}
 _G.GPOTIONS = {"Coins","Lucky","The Cocktail","Treasure Hunter","Walkspeed","Diamonds","Damage"}
 _G.GHATCH_CHARGED_EGGS = false -- can only be true on strong accounts. you can test... redscreen means not making enough coins.
 _G.GENCHANTS = {"Lucky Eggs","Lucky Eggs","Lucky Eggs","Strong Pets","Coins","Fortune"} -- I dont know best setup for this event/your accounts, something that can make you sustain charged eggs maybe :slight_smile:
@@ -14,7 +15,6 @@ _G.GWEBHOOK_USERID = "626903756835127296"
 _G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1245695779532963981/VCY5eY4E1MVGludmeakcD0yjoQZp1d1RuAZSXL0kyGb0FDj3wG7mVf35pDlkLzhIcY7b"
 _G.GMAIL_RECEIVERS = {"DeafenedToAll", "YoBotGirlyPop5", "YoBotGirlyPop6", "NUGW8abt41", "CMARAg6f03", "W1ALDIY4503", "YoBotBoyPuppy1", "YoBotBoyPuppy4", "YoBotGirlyPop7", "YoBotGirlyPop8"}-- for Huges & items
 _G.GMAIL_ITEMS = {
-  ["Snowflake Gifts"] = {Class = "Lootbox", Id = "Snowflake Gift", MinAmount = 200},
   ["2024 X-Large Christmas Present"] = {Class = "Lootbox", Id = "2024 X-Large Christmas Present", MinAmount = 25},
   ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Id = "2024 Gargantuan Christmas Present", MinAmount = 1},
   ["2024 Large Christmas Present"] = {Class = "Lootbox", Id = "2024 Large Christmas Present", MinAmount = 100},
