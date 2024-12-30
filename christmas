@@ -31,5 +31,11 @@ _G.GMAIL_ITEMS = {
   ["Lockpick A"] = {Class = "Misc", Id = "Lockpick A", MinAmount = 25},
   ["Lockpick B"] = {Class = "Misc", Id = "Lockpick B", MinAmount = 10},
   ["Lockpick C"] = {Class = "Misc", Id = "Lockpick C", MinAmount = 3},
+  ["Normal Poinsettia Peacocks"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 1},
+  ["Shiny Normal Poinsettia Peacocks"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 1, IsShiny = true},
+  ["Golden Poinsettia Peacocks"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 1, IsGold = true},
+  ["Shiny Golden Poinsettia Peacocks"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount =1, IsGold = true, IsShiny = true},
+  ["RB Poinsettia Peacocks"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 1, IsRainbow = true},
+  ["Shiny RB Poinsettia Peacocks"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 1, IsRainbow = true, IsShiny = true},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
