@@ -1,3 +1,5 @@
+setfpscap(4)
+wait(1)
 _G.GGFX_MODE = 1
 _G.GZONE_TO = 999 -- to enter event from W3 intead put 999
 _G.GRANK_TO = 99
