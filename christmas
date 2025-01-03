@@ -7,6 +7,7 @@ _G.GUSE_SPRINKLERS = true
 _G.GDO_HOLIDAY_EVENT = true
 _G.GCONVERT_SNOWFLAKES = true
 _G.GDO_SNOWSTORM_SURVIVAL = true
+_G.GDO_LOCKPICKING = true
 _G.GLOOTBOXES = {"Snowflake Gift", "Jolly Gift"}
 _G.GPOTIONS = {"Coins","Lucky","The Cocktail","Treasure Hunter","Walkspeed","Diamonds","Damage"}
 _G.GHATCH_CHARGED_EGGS = false -- can only be true on strong accounts. you can test... redscreen means not making enough coins.
@@ -30,10 +31,7 @@ _G.GMAIL_ITEMS = {
   ["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
   ["Secret pet4"] = {Class = "Pet", Id = "Lucky Block", MinAmount = 1, AllVariants = true},
   ["Mega Lucky Gingerbread"] = {Class = "Misc", Id = "Mega Lucky Gingerbread", MinAmount = 1},
-  ["Lockpick A"] = {Class = "Misc", Id = "Lockpick A", MinAmount = 25},
-  ["Lockpick B"] = {Class = "Misc", Id = "Lockpick B", MinAmount = 10},
-  ["Lockpick C"] = {Class = "Misc", Id = "Lockpick C", MinAmount = 3},
-  ["Normal Poinsettia Peacocks"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 1},
+  ["Normal Poinsettia Peacocks"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 2},
   ["Shiny Normal Poinsettia Peacocks"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 1, IsShiny = true},
   ["Golden Poinsettia Peacocks"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 1, IsGold = true},
   ["Shiny Golden Poinsettia Peacocks"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount =1, IsGold = true, IsShiny = true},
