@@ -1,33 +1,19 @@
-setfpscap(7)
-wait(1)
-_G.GGFX_MODE = 1
-_G.GZONE_TO = 999 -- to enter event from W3 intead put 999
+setfpscap(15)
+script_key = "ZVgRyyVgwzomFhpzYQcXkZYgfYuNckDR";
+_G.GPROGRESS_MODE = "Hybrid"
+_G.GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
 _G.GRANK_TO = 99
-_G.GDO_DOODLE_BATTLE = true
-_G.GDO_FILL_JAR = true
-_G.GMAX_MAIL_COST = "1m"
-_G.GUSE_SPRINKLERS = true
-_G.GLOOTBOXES = {"Snowflake Gift", "Jolly Gift"}
-_G.GPOTIONS = {"Coins","Lucky","The Cocktail","Treasure Hunter","Walkspeed","Diamonds","Damage"}
-_G.GHATCH_CHARGED_EGGS = false -- can only be true on strong accounts. you can test... redscreen means not making enough coins.
-_G.GUSE_FLAGS = {"Fortune Flag"}
-_G.GENCHANTS =  {"Lucky Eggs","Lucky Eggs","Lucky Eggs","Strong Pets","Coins","Fortune"}
-_G.GWEBHOOK_USERID = "626903756835127296"
-_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1245695779532963981/VCY5eY4E1MVGludmeakcD0yjoQZp1d1RuAZSXL0kyGb0FDj3wG7mVf35pDlkLzhIcY7b"
-_G.GMAIL_RECEIVERS = {"DeafenedToAll", "YoBotGirlyPop5", "YoBotGirlyPop6", "NUGW8abt41", "CMARAg6f03", "W1ALDIY4503", "YoBotBoyPuppy1", "YoBotBoyPuppy4", "YoBotGirlyPop7", "YoBotGirlyPop8"}
-_G.GMAIL_ITEMS = {
-  ["All Huges"] = {Class = "Pet", Id = "All Huges", Amount = 1},
-["Golden Pencil"] = {Class = "Misc", Id = "Golden Pencil", MinAmount = 10000},
-["Diamond Pencil"] = {Class = "Misc", Id = "Diamond Pencil", MinAmount = 5000},
-["Rainbow Pencil"] = {Class = "Misc", Id = "Rainbow Pencil", MinAmount = 500},
-  ["Hype Egg"] = {Class = "Lootbox", Id = "Hype Egg", MinAmount = 1},
-  ["Doodle Gift"] = {Class = "Lootbox", Id = "Doodle Gift", MinAmount = 1},
-  ["Daycare egg"] = {Class = "Egg", Id = "Huge Machine Egg 4", MinAmount = 1},
-  ["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
-  ["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
-  ["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
-  ["Secret pet4"] = {Class = "Pet", Id = "Lucky Block", MinAmount = 1, AllVariants = true},
-["Send all Diamonds"] = {Class = "Currency", Id = "Diamonds", MinAmount = "20m"},
-
-}
+_G.GZONE_TO = 999 -- PLEASE READ FAQ about this property!!! it's important to understand. 99 means last zone W1 only!! 999: go to final zone of game
+_G.GMAX_EGG_SLOTS = 99
+_G.GMAX_EQUIP_SLOTS = 40
+_G.GHOLD_GIFTS = false
+_G.GHOLD_BUNDLES = false
+_G.GMAX_ZONE_UPGRADE_COST = 9999999999
+_G.GIGNORE_ALL_INSTANCES = true
+_G.GIGNORE_SLEDRACE = true
+_G.GPOTIONS = {"Coins","Lucky","Treasure Hunter","Walkspeed","Diamonds","Damage"}
+_G.GPOTIONS_MAX_TIER = 1
+_G.GENCHANTS = {"Tap Power", "Coins", "Treasure Hunter", "Strong Pets", "Criticals", "Diamonds"}
+_G.GWEBHOOK_USERID = "" -- your discord userID, not your name. numerical id.
+_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1310064150881239130/pnW6oEIF3KymTwb5VAfcY_RFq_VISIxbsz1AVsKRDkTQtxLwmMpgVBHVZ0fF_S4ubDZH" -- a webhook URL from your private discord channel.
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
