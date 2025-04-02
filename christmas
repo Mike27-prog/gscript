@@ -1,12 +1,12 @@
 getgenv().Config = {
     ["Farming"] = {
-        ["AreaToFarm"] = 8,
+        ["AreaToFarm"] = 7,
         ["StartAtBottom"] = true,
-        ["AutoCraft"] = false, -- Autocraft Onyx Gems // After max cheaper upgrade is bought
+        ["AutoCraft"] = true, -- Autocraft Onyx Gems // After max cheaper upgrade is bought
     },
     ["Pickaxe"] = {
-        ["AutoEnchant"] = false, -- Enchants ur best Pickaxe
-        ["GetAllEnchants"] = false,
+        ["AutoEnchant"] = true, -- Enchants ur best Pickaxe
+        ["GetAllEnchants"] = true,
         ["PickaxeEnchants"] = {
             ["Fortune"] = 3, -- This will stop at Fortune 3, 4, 5
             ["Diamond Farmer"] = 5, -- This will stop at Diamond Farmer 5
