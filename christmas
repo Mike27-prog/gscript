@@ -1,29 +1,16 @@
-setfpscap(15)
-script_key = "ZVgRyyVgwzomFhpzYQcXkZYgfYuNckDR"
-_G.GPROGRESS_MODE = "Hybrid"
-_G.GDO_MINING_EVENT = true
-_G.GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
-_G.GRANK_TO = 99
-_G.GZONE_TO = 105 -- to enter event from W3 instead put 999
-_G.GMAX_EGG_SLOTS = 99
-_G.GBUY_DIAMOND_PICKAXE = false
-_G.GPICKAXE_ENCHANTS_COUNT = 2 
-_G.GAUTO_ENCHANT_PICKAXE = true --to enable disable
-_G.GPICKAXE_ENCHANTS = {
-    ["Fortune"] = 5,
-    ["Power Ball"] = 5,
-} -- This just shows all possible enchants & their max tiers, just comment out the ones you don't want 
--- and lower the tiers for those you want if you allow to stop at lower tier. 
-_G.GMAX_EQUIP_SLOTS = 40
-_G.GHOLD_GIFTS = false
-_G.GHOLD_BUNDLES = false
-_G.GMAX_ZONE_UPGRADE_COST = 9999999999
-_G.GIGNORE_ALL_INSTANCES = true
-_G.GIGNORE_SLEDRACE = true
-_G.GPOTIONS = {"Coins","Lucky","Treasure Hunter","Walkspeed","Diamonds","Damage"}
-_G.GPOTIONS_MAX_TIER = 1
-_G.GENCHANTS = {"Tap Power", "Coins", "Treasure Hunter", "Strong Pets", "Criticals", "Diamonds"}
-_G.GWEBHOOK_USERID = "" -- your discord userID, not your name. numerical id.
-_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1310064150881239130/pnW6oEIF3KymTwb5VAfcY_RFq_VISIxbsz1AVsKRDkTQtxLwmMpgVBHVZ0fF_S4ubDZH" -- a webhook URL from your private discord channel.
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
+getgenv().Config = {
+    ["Farming"] = {
+        ["AreaToFarm"] = 8,
+        ["StartAtBottom"] = true,
+        ["AutoCraft"] = false, -- Autocraft Onyx Gems // After max cheaper upgrade is bought
+    },
+    ["Pickaxe"] = {
+        ["AutoEnchant"] = false, -- Enchants ur best Pickaxe
+        ["GetAllEnchants"] = false,
+        ["PickaxeEnchants"] = {
+            ["Fortune"] = 3, -- This will stop at Fortune 3, 4, 5
+            ["Diamond Farmer"] = 5, -- This will stop at Diamond Farmer 5
+        },
+    }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d0b7e7eced327afcbf466e8c5ad296f8.lua"))()
