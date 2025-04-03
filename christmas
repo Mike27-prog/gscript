@@ -1,7 +1,7 @@
 setfpscap(15)
 script_key = "ZVgRyyVgwzomFhpzYQcXkZYgfYuNckDR"
-_G.GPROGRESS_MODE = "Hybrid"
 _G.GDO_MINING_EVENT = true
+_G.GMINING_EVENT_ZONE_TO = 8 
 _G.GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
 _G.GRANK_FIRST = true
 _G.GZONE_TO = 31
