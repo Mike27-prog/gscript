@@ -14,10 +14,6 @@ _G.GPICKAXE_ENCHANTS_COUNT = 2 -- how many matching enchants should there be bef
 _G.GPICKAXE_ENCHANTS = {
     ["Fortune"] = 3,
     ["Power Ball"] = 3,
-    ["Fortune"] = 4,
-    ["Power Ball"] = 4,
-    ["Fortune"] = 5,
-    ["Power Ball"] = 5,
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
