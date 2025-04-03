@@ -9,6 +9,14 @@ _G.GREBIRTH_TO = 4
 _G.GRANK_TO = 5
 _G.GMAX_EGG_SLOTS = 99
 _G.GMAX_EQUIP_SLOTS = 99
+_G.GHOLD_GIFTS = false
+_G.GHOLD_BUNDLES = false
+_G.GMAX_ZONE_UPGRADE_COST = 9999999999
+_G.GIGNORE_ALL_INSTANCES = true
+_G.GIGNORE_SLEDRACE = true
+_G.GPOTIONS = {"Coins","Lucky","Treasure Hunter","Walkspeed","Diamonds","Damage"}
+_G.GPOTIONS_MAX_TIER = 1
+_G.GENCHANTS = {"Tap Power", "Coins", "Treasure Hunter", "Strong Pets", "Criticals", "Diamonds"}
 _G.GMINING_EVENT_MAX_AUTO_CRAFT_RECIPE = 7
 _G.GEVENT_UPGRADES = {
     "MiningEventLessPetsRequiredToComboThem2",
