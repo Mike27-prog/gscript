@@ -1,4 +1,4 @@
-setfpscap(5)
+setfpscap(15)
 script_key = "aoERtrJBYjEIipOVdnogVGvYHgaFyoaU";
 getgenv().GDO_BASKETBALL_EVENT = true
 getgenv().GEVENT_UPGRADES = {
