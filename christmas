@@ -1,27 +1,26 @@
-setfpscap(10)
-script_key = "RWnOCglmICzOdivuVQwGaANLQdeLAGYF";
-_G.GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
-_G.GRANK_FIRST = true
-_G.GZONE_TO = 31
-_G.GREBIRTH_TO = 1
-_G.GRANK_TO= 3
-_G.GMAX_EGG_SLOTS = 99
-_G.GDO_CONVEYOR_INSTANCE = true
-_G.GCONVEYOR_MAX_PETS_LEVEL = 141
-_G.GCONVEYOR_MAX_PETS_TO_BUY = 10
-_G.GCONVEYOR_RESET_UPGRADES = false
-_G.GEVENT_UPGRADES = {
-"ConveyorBetterChestLoot",
-"ConveyorHugeChest",
-"ConveyorTitanicChest",
-"ConveyorBetterDrops",
-"ConveyorMoreDamage",
-"ConveyorMoreCoins",
---"ConveyorBetterEggChance",
-"ConveyorFasterConveyor",
-"ConveyorMoreBreakables",
-"ConveyorBreakableHugeChance",
-"ConveyorFasterBreakableSpawning"}
-_G.GWEBHOOK_USERID = "626903756835127296"
-_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1149879288636649583/OGbQNmZSGsr8bN2ooNgoA9HI0wAnzc1acTAGKH6_twp7E3dvgxgcaRcU3HfRkubXSsMw"
+setfpscap(5)
+script_key = "aoERtrJBYjEIipOVdnogVGvYHgaFyoaU";
+getgenv().GDO_BASKETBALL_EVENT = true
+getgenv().GEVENT_UPGRADES = {
+"CriticalThrowChance",
+"TrickshotThrowChance",
+--"YeetOrbsReach",--not needed
+"YeetOrbStrength",
+"BetterYeetEgg"
+}
+getgenv().GENCHANTS = {
+    "Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs",
+    "Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs",
+    "Lucky Eggs", "Lucky Eggs", "Lucky Eggs"
+    } -- apparently others dont work
+getgenv().GPOTIONS = {"Lucky"}
+getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
+getgenv().GWEBHOOK_USERID = "626903756835127296" -- your discord userID, not your name. numerical id.
+getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1245695779532963981/VCY5eY4E1MVGludmeakcD0yjoQZp1d1RuAZSXL0kyGb0FDj3wG7mVf35pDlkLzhIcY7b" -- a webhook URL from your private discord channel.
+getgenv().GHUGE_COUNT = 0 -- amount of huges to keep/not mail
+getgenv().GMAIL_RECEIVERS = {"DeafenedToAll"} -- for Huges and mailrules.
+getgenv().GMAIL_ITEMS = {
+["Glitched Cat Ball"] = {Class = "Pet", Id = "Glitched Cat Ball", MinAmount = 1, AllVariants = true},
+["Hippomelon Ball"] = {Class = "Pet", Id = "Hippomelon Ball", MinAmount = 1, AllVariants = true},
+}
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
