@@ -2,8 +2,8 @@ setfpscap(5)
 script_key = "aoERtrJBYjEIipOVdnogVGvYHgaFyoaU";
 getgenv().GRANK_FIRST = true
 getgenv().GZONE_TO = 202
-getgenv().GREBIRTH_TO = 4
-getgenv().GRANK_TO= 5
+getgenv().GREBIRTH_TO = 8
+getgenv().GRANK_TO= 8
 getgenv().GMAX_EGG_SLOTS = 50
 getgenv().GHOLD_GIFTS = false  -- true/false, only set true when you don't want it to use consume your giftbags
 getgenv().GHOLD_BUNDLES = false
