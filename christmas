@@ -1,5 +1,5 @@
 setfpscap(5)
-script_key = "aoERtrJBYjEIipOVdnogVGvYHgaFyoaU";
+script_key = "uCgIzNQPjciyOtYIKLBFnQsAfzgcIJQQ";
 getgenv().GRANK_FIRST = true
 getgenv().GZONE_TO = 202
 getgenv().GREBIRTH_TO = 8
