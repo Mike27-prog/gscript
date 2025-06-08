@@ -13,9 +13,10 @@ getgenv().GDO_BASKETBALL_EVENT = true
 getgenv().GEVENT_UPGRADES = {
 "CriticalThrowChance",
 "TrickshotThrowChance",
---"YeetOrbsReach",--not needed
+--"YeetOrbsReach", --normally not needed
 "YeetOrbStrength",
-"BetterYeetEgg"
+"BetterYeetEgg",
+"DunkRequirement", --the new one
 }
 getgenv().GENCHANTS = {
     "Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs",
