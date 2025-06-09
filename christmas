@@ -27,7 +27,7 @@ getgenv().GHUGE_COUNT = 0 -- amount of huges to keep/not mail
 getgenv().GMAIL_RECEIVERS = {"DeafenedToAll"} -- for Huges and mailrules.
 getgenv().GMAIL_ITEMS = {
 ["Glitched Cat Ball"] = {Class = "Pet", Id = "Fragmented Dominus Ball", MinAmount = 1, AllVariants = true},
-["Hippomelon Ball"] = {Class = "Pet", Id = "Holographic Axolotl Ball", MinAmount = 1, AllVariants = true},
+["Hippomelon Ball"] = {Class = "Pet", Id = "Holographic Axolotl Ball", MinAmount = 2, AllVariants = true},
 ["Black Hole Angelus Ball"] = {Class = "Pet", Id = "Black Hole Angelus Ball", MinAmount = 1, AllVariants = true},
 ["Hype Egg 2"] = {Class = "Lootbox", Id = "Hype Egg 2", MinAmount = 1},
 ["Daycare egg 5"] = {Class = "Egg", Id = "Huge Machine Egg 5", MinAmount = 1},
