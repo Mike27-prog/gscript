@@ -1,4 +1,4 @@
-setfpscap(5)
+setfpscap(15)
 script_key = "uCgIzNQPjciyOtYIKLBFnQsAfzgcIJQQ";
 getgenv().GMAX_EGG_SLOTS = 50
 getgenv().GMAX_EQUIP_SLOTS = 50
