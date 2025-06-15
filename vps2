@@ -11,6 +11,7 @@ getgenv().GAUTO_UPGRADE_PETS = false
 getgenv().GHOLD_GIFTS = false
 getgenv().GHOLD_BUNDLES = false
 getgenv().GMAX_ZONE_UPGRADE_COST = 200000
+getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1295515102539415667/--yhq_iZLg0iP9xudnm3c36U03WKZYXv5I04r6XBK-PIhW8Znfk39nfmxE1xqSB-xF9Z"
 getgenv().GPOTIONS = {"Coins","Lucky","Treasure Hunter","Walkspeed","Diamonds","Damage"}
 getgenv().GPOTIONS_MAX_TIER = 99
 getgenv().GENCHANTS = {"Tap Power", "Coins", "Treasure Hunter", "Strong Pets", "Criticals", "Diamonds"}
