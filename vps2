@@ -16,6 +16,5 @@ getgenv().GPOTIONS = {"Coins","Lucky","Treasure Hunter","Walkspeed","Diamonds","
 getgenv().GPOTIONS_MAX_TIER = 99
 getgenv().GENCHANTS = {"Tap Power", "Coins", "Treasure Hunter", "Strong Pets", "Criticals", "Diamonds"}
 getgenv().GWEBHOOK_USERID = "" -- your discord userID, not your name. numerical id.
-getgenv().GWEBHOOK_LINK = "" -- a webhook URL from your private discord channel.
 getgenv().GMAIL_RECEIVERS = {""} -- an account to receive hatched Huges etc
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
