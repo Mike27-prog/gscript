@@ -2,15 +2,9 @@ setfpscap(5)
 script_key = "aSJZWEcQFDzaNxCFRaPdgxvKWGjwAHdk";
 getgenv().GMAX_EGG_SLOTS = 50
 getgenv().GMAX_EQUIP_SLOTS = 50
-getgenv().GHOLD_GIFTS = false  -- true/false, only set true when you don't want it to use consume your giftbags
-getgenv().GHOLD_BUNDLES = false
 getgenv().GDO_TOWER_DEFENSE = true
-getgenv().GENCHANTS = {
-    "Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs",
-    "Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs",
-    "Lucky Eggs", "Lucky Eggs", "Lucky Eggs"
-    } -- apparently others dont work
-getgenv().GPOTIONS = {"Lucky"}
+getgenv().GTOWER_DEFENSE_INFINITY_PET = "Electric Eel"
+getgenv().GTOWER_DEFENSE_FUSE_PET = "Demolition Panda"
 getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
 getgenv().GWEBHOOK_USERID = "626903756835127296" -- your discord userID, not your name. numerical id.
 getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1245695779532963981/VCY5eY4E1MVGludmeakcD0yjoQZp1d1RuAZSXL0kyGb0FDj3wG7mVf35pDlkLzhIcY7b" -- a webhook URL from your private discord channel.
@@ -24,5 +18,15 @@ getgenv().GMAIL_ITEMS = {
 ["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
 ["Secret pet4"] = {Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1, AllVariants = true},
 ["All Huges"] = {Class = "Pet", Id = "All Huges", MinAmount = 1},
+["Mechanical Griffin"] = {Class = "Tower", Id = "Mechanical Griffin", MinAmount = 1},
+["Zeus Bear"] = {Class = "Tower", Id = "Zeus Bear", MinAmount = 1},
+["Rich Corgi"] = {Class = "Tower", Id = "Rich Corgi", MinAmount = 1},
+["TNT Capybara"] = {Class = "Tower", Id = "TNT Capybara", MinAmount = 1},
+["Nuclear Dominus"] = {Class = "Tower", Id = "Nuclear Dominus", MinAmount = 1},
+["Arcade Angelus"] = {Class = "Tower", Id = "Arcade Angelus", MinAmount = 1},
+["Nightmare Cyclops"] = {Class = "Tower", Id = "Nightmare Cyclops", MinAmount = 1},
+["Forged Armadillo"] = {Class = "Tower", Id = "Forged Armadillo", MinAmount = 1},
+["Comet Dragon,"] = {Class = "Tower", Id = "Comet Dragon,", MinAmount = 1},
+["Tower Defense Gift"] = {Class = "Lootbox", Id = "Tower Defense Gift", MinAmount = 20},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
