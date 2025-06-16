@@ -3,7 +3,20 @@ script_key = "aSJZWEcQFDzaNxCFRaPdgxvKWGjwAHdk";
 getgenv().GMAX_EGG_SLOTS = 50
 getgenv().GMAX_EQUIP_SLOTS = 50
 getgenv().GDO_TOWER_DEFENSE = true
-getgenv().GTOWER_DEFENSE_INFINITY_PET = "Electric Eel"
+getgenv().GTOWER_DEFENSE_INFINITY_PET = {
+    "Forged Armadillo",
+    "Comet Dragon",
+    "Electric Eel",
+    "Torpedo Cat",
+    "Frostbyte Griffin",
+    "Tech Samurai Axolotl",
+    "Shadow Pegasus",
+    "Demolition Panda",
+    "Flamethrower Spider",
+    "Cyborg Kitsune",
+    "Ninja Dalmatian",
+    "Safari Monkey"
+}
 getgenv().GTOWER_DEFENSE_FUSE_PET = "Demolition Panda"
 getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
 getgenv().GWEBHOOK_USERID = "626903756835127296" -- your discord userID, not your name. numerical id.
@@ -25,8 +38,6 @@ getgenv().GMAIL_ITEMS = {
 ["Nuclear Dominus"] = {Class = "Tower", Id = "Nuclear Dominus", MinAmount = 1},
 ["Arcade Angelus"] = {Class = "Tower", Id = "Arcade Angelus", MinAmount = 1},
 ["Nightmare Cyclops"] = {Class = "Tower", Id = "Nightmare Cyclops", MinAmount = 1},
-["Forged Armadillo"] = {Class = "Tower", Id = "Forged Armadillo", MinAmount = 1},
-["Comet Dragon"] = {Class = "Tower", Id = "Comet Dragon", MinAmount = 1},
 ["Tower Defense Gift"] = {Class = "Lootbox", Id = "Tower Defense Gift", MinAmount = 20},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
