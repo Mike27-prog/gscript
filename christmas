@@ -4,16 +4,7 @@ getgenv().GMAX_EGG_SLOTS = 50
 getgenv().GMAX_EQUIP_SLOTS = 50
 getgenv().GHOLD_GIFTS = false  -- true/false, only set true when you don't want it to use consume your giftbags
 getgenv().GHOLD_BUNDLES = false
-getgenv().GHUGE_COUNT = 0
-getgenv().GDO_BASKETBALL_EVENT = true
-getgenv().GEVENT_UPGRADES = {
-"CriticalThrowChance",
-"TrickshotThrowChance",
---"YeetOrbsReach", --normally not needed
-"YeetOrbStrength",
-"BetterYeetEgg",
-"DunkRequirement", --the new one
-}
+getgenv().GDO_TOWER_DEFENSE = true
 getgenv().GENCHANTS = {
     "Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs",
     "Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs",
@@ -26,9 +17,6 @@ getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1245695779532963981/
 getgenv().GHUGE_COUNT = 0 -- amount of huges to keep/not mail
 getgenv().GMAIL_RECEIVERS = {"DeafenedToAll"} -- for Huges and mailrules.
 getgenv().GMAIL_ITEMS = {
-["Glitched Cat Ball"] = {Class = "Pet", Id = "Fragmented Dominus Ball", MinAmount = 1, AllVariants = true},
-["Hippomelon Ball"] = {Class = "Pet", Id = "Holographic Axolotl Ball", MinAmount = 2, AllVariants = true},
-["Black Hole Angelus Ball"] = {Class = "Pet", Id = "Black Hole Angelus Ball", MinAmount = 1, AllVariants = true},
 ["Hype Egg 2"] = {Class = "Lootbox", Id = "Hype Egg 2", MinAmount = 1},
 ["Daycare egg 5"] = {Class = "Egg", Id = "Huge Machine Egg 5", MinAmount = 1},
 ["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
