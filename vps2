@@ -26,7 +26,7 @@ getgenv().GMAIL_ITEMS = {
 ["Arcade Angelus"] = {Class = "Tower", Id = "Arcade Angelus", MinAmount = 1},
 ["Nightmare Cyclops"] = {Class = "Tower", Id = "Nightmare Cyclops", MinAmount = 1},
 ["Forged Armadillo"] = {Class = "Tower", Id = "Forged Armadillo", MinAmount = 1},
-["Comet Dragon"] = {Class = "Tower", Id = "Comet Dragon,", MinAmount = 1},
+["Comet Dragon"] = {Class = "Tower", Id = "Comet Dragon", MinAmount = 1},
 ["Tower Defense Gift"] = {Class = "Lootbox", Id = "Tower Defense Gift", MinAmount = 20},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
