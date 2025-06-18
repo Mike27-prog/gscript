@@ -1,7 +1,5 @@
 setfpscap(5)
 script_key = "aSJZWEcQFDzaNxCFRaPdgxvKWGjwAHdk";
-getgenv().GMAX_EGG_SLOTS = 50
-getgenv().GMAX_EQUIP_SLOTS = 50
 getgenv().GDO_TOWER_DEFENSE = true
 getgenv().GTOWER_DEFENSE_INFINITY_PET = {
     "TNT Capybara",
