@@ -2,6 +2,8 @@ setfpscap(2)
 script_key = "aSJZWEcQFDzaNxCFRaPdgxvKWGjwAHdk";
 getgenv().GDO_TOWER_DEFENSE = true
 getgenv().GTOWER_DEFENSE_INFINITY_PET = {
+    "Forged Armadillo",
+    "Comet Dragon",
     "Electric Eel",
     "Torpedo Cat",
     "Frostbyte Griffin",
@@ -33,7 +35,5 @@ getgenv().GMAIL_ITEMS = {
 ["Nuclear Dominus"] = {Class = "Tower", Id = "Nuclear Dominus", MinAmount = 1},
 ["Arcade Angelus"] = {Class = "Tower", Id = "Arcade Angelus", MinAmount = 1},
 ["Nightmare Cyclops"] = {Class = "Tower", Id = "Nightmare Cyclops", MinAmount = 1},
-["Forged Armadillo"] = {Class = "Tower", Id = "Forged Armadillo", MinAmount = 1},
-["Comet Dragon"] = {Class = "Tower", Id = "Comet Dragon", MinAmount = 1},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
