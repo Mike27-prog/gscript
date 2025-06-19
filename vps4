@@ -2,6 +2,8 @@ setfpscap(5)
 script_key = "MktNahXgsiQdDDrbuaMiutRSmGVzbhFx";
 getgenv().GDO_TOWER_DEFENSE = true
 getgenv().GTOWER_DEFENSE_INFINITY_PET = {
+    "Arcade Angelus",
+    "Nightmare Cyclops",
     "Forged Armadillo",
     "Comet Dragon",
     "Electric Eel",
@@ -15,6 +17,7 @@ getgenv().GTOWER_DEFENSE_INFINITY_PET = {
     "Ninja Dalmatian",
     "Safari Monkey"
 }
+
 getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
 getgenv().GWEBHOOK_USERID = "626903756835127296" -- your discord userID, not your name. numerical id.
 getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1245695779532963981/VCY5eY4E1MVGludmeakcD0yjoQZp1d1RuAZSXL0kyGb0FDj3wG7mVf35pDlkLzhIcY7b" -- a webhook URL from your private discord channel.
@@ -33,8 +36,6 @@ getgenv().GMAIL_ITEMS = {
 ["Rich Corgi"] = {Class = "Tower", Id = "Rich Corgi", MinAmount = 1},
 ["TNT Capybara"] = {Class = "Tower", Id = "TNT Capybara", MinAmount = 1},
 ["Nuclear Dominus"] = {Class = "Tower", Id = "Nuclear Dominus", MinAmount = 1},
-["Arcade Angelus"] = {Class = "Tower", Id = "Arcade Angelus", MinAmount = 1},
-["Nightmare Cyclops"] = {Class = "Tower", Id = "Nightmare Cyclops", MinAmount = 1},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
 
