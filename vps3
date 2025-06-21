@@ -36,6 +36,7 @@ getgenv().GMAIL_ITEMS = {
 ["Rich Corgi"] = {Class = "Tower", Id = "Rich Corgi", MinAmount = 1},
 ["TNT Capybara"] = {Class = "Tower", Id = "TNT Capybara", MinAmount = 1},
 ["Nuclear Dominus"] = {Class = "Tower", Id = "Nuclear Dominus", MinAmount = 1},
+["Tower Defense Gift"] = {Class = "Lootbox", Id = "Tower Defense Gift", MinAmount = 20},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
 
