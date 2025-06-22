@@ -2,20 +2,35 @@
 script_key = "TcrSVWKYIQQtnncfnmLgwNPYDycWpeWT";
 getgenv().GDO_TOWER_DEFENSE = true
 getgenv().GTOWER_DEFENSE_INFINITY_PET = {
-    "Arcade Angelus",
+    "Crystal Giraffe",
     "Nightmare Cyclops",
+    "Blurred Owl",
+    "Nuclear Dominus",
+    "Jetpack Cat",
+    "Arcade Angelus",
+    "Abyssal Turtle",
+    "Disco Ball Agony",
+    "Electric Eel",
     "Forged Armadillo",
     "Comet Dragon",
-    "Electric Eel",
     "Torpedo Cat",
-    "Frostbyte Griffin",
-    "Tech Samurai Axolotl",
+    "Rich Corgi",
     "Shadow Pegasus",
-    "Demolition Panda",
+    "Tech Samurai Axolotl",
+    "Ooze Dragon",
+    "Potion Penguin",
+    "Old Wizard Cat",
+    "Umbrella Elephant",
+    "Frostbyte Griffin",
+    "Detective Bunny",
+    "Knight Chicken",
     "Flamethrower Spider",
+    "Demolition Panda",
     "Cyborg Kitsune",
-    "Ninja Dalmatian",
-    "Safari Monkey"
+    "DJ Shark",
+    "Safari Monkey",
+    "Ronin Piggy",
+    "Ninja Dalmatian"
 }
 
 getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
@@ -35,7 +50,6 @@ getgenv().GMAIL_ITEMS = {
 ["Zeus Bear"] = {Class = "Tower", Id = "Zeus Bear", MinAmount = 1},
 ["Rich Corgi"] = {Class = "Tower", Id = "Rich Corgi", MinAmount = 1},
 ["TNT Capybara"] = {Class = "Tower", Id = "TNT Capybara", MinAmount = 1},
-["Nuclear Dominus"] = {Class = "Tower", Id = "Nuclear Dominus", MinAmount = 1},
 ["Tower Defense Gift"] = {Class = "Lootbox", Id = "Tower Defense Gift", MinAmount = 20},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
