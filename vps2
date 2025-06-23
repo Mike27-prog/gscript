@@ -49,7 +49,6 @@ getgenv().GMAIL_ITEMS = {
 ["All Huges"] = {Class = "Pet", Id = "All Huges", MinAmount = 1},
 ["Mechanical Griffin"] = {Class = "Tower", Id = "Mechanical Griffin", MinAmount = 1},
 ["Zeus Bear"] = {Class = "Tower", Id = "Zeus Bear", MinAmount = 1},
-["Rich Corgi"] = {Class = "Tower", Id = "Rich Corgi", MinAmount = 1},
 ["TNT Capybara"] = {Class = "Tower", Id = "TNT Capybara", MinAmount = 1},
 ["Tower Defense Gift"] = {Class = "Lootbox", Id = "Tower Defense Gift", MinAmount = 50},
 ["Tower Defense Gift 2"] = {Class = "Lootbox", Id = "Tower Defense Gift 2", MinAmount = 50},
