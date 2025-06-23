@@ -1,5 +1,5 @@
 setfpscap(5)
-script_key = "aSJZWEcQFDzaNxCFRaPdgxvKWGjwAHdk";
+script_key = "YgtWOvIVrBktVimlToZuonkjfyYaeIXt";
 getgenv().GDO_TOWER_DEFENSE = true
 getgenv().GTOWER_DEFENSE_INFINITY_PET = {
     "Crystal Giraffe",
