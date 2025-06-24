@@ -6,7 +6,6 @@ _G.DISABLE_OVERLAY = true -- when true it does not make screen green/red when re
 _G.GDRY_RUN = false  -- true means just log as test, false means actually send the mails.
 _G.GMAIL_ITEMS = {
     ["Diamonds"] = {Class = "Currency", Id = "Diamonds", Amount = "10m"},
-    ["Runebound Bobcat"] = {Class = "Pet", Id = "Runebound Bobcat", Amount = 100, IsGold = false, IsRainbow = false, IsShiny = false},
 }
 _G.GMAIL_RECEIVERS = {
     "RhinoGlossy4251",
