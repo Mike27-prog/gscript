@@ -1,5 +1,5 @@
 setfpscap(5)
-script_key = "FSSfeqWWGhGGJOWuNiYwrCCcxZxIBamW";
+script_key = "qWAyEFNCeEogjCSXuVgROqmdqXmlijvN";
 getgenv().GPROGRESS_MODE = "Hybrid"
 getgenv().GGFX_MODE = 1 --1 = REMOVE_TEXTURES : more stable! but no visuals
 getgenv().GRANK_TO = 99
