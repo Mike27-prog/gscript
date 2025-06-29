@@ -1,59 +1,19 @@
 setfpscap(5)
-script_key = "qWAyEFNCeEogjCSXuVgROqmdqXmlijvN";
-
-
-getgenv().GDO_TOWER_DEFENSE = true
-getgenv().GTOWER_DEFENSE_INFINITY_PET = {
-    "Crystal Giraffe",
-    "Nightmare Cyclops",
-    "Blurred Owl",
-    "Nuclear Dominus",
-    "Jetpack Cat",
-    "Arcade Angelus",
-    "Abyssal Turtle",
-    "Disco Ball Agony",
-    "Electric Eel",
-    "Forged Armadillo",
-    "Comet Dragon",
-    "Torpedo Cat",
-    "Rich Corgi",
-    "Shadow Pegasus",
-    "Tech Samurai Axolotl",
-    "Ooze Dragon",
-    "Potion Penguin",
-    "Old Wizard Cat",
-    "Umbrella Elephant",
-    "Frostbyte Griffin",
-    "Detective Bunny",
-    "Knight Chicken",
-    "Flamethrower Spider",
-    "Demolition Panda",
-    "Cyborg Kitsune",
-    "DJ Shark",
-    "Safari Monkey",
-    "Ronin Piggy",
-    "Ninja Dalmatian"
-}
-
-getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
-getgenv().GWEBHOOK_USERID = "626903756835127296" -- your discord userID, not your name. numerical id.
-getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1245695779532963981/VCY5eY4E1MVGludmeakcD0yjoQZp1d1RuAZSXL0kyGb0FDj3wG7mVf35pDlkLzhIcY7b" -- a webhook URL from your private discord channel.
-getgenv().GHUGE_COUNT = 0 -- amount of huges to keep/not mail
-getgenv().GNO_HUGE_WEBHOOK = true
-getgenv().GMAIL_RECEIVERS = {"DeafenedToAll"} -- for Huges and mailrules.
-getgenv().GMAIL_ITEMS = {
-["Hype Egg 2"] = {Class = "Lootbox", Id = "Hype Egg 2", MinAmount = 1},
-["Daycare egg 5"] = {Class = "Egg", Id = "Huge Machine Egg 5", MinAmount = 1},
-["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
-["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
-["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
-["Secret pet4"] = {Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1, AllVariants = true},
-["All Huges"] = {Class = "Pet", Id = "All Huges", MinAmount = 1},
-["Mechanical Griffin"] = {Class = "Tower", Id = "Mechanical Griffin", MinAmount = 1},
-["Zeus Bear"] = {Class = "Tower", Id = "Zeus Bear", MinAmount = 1},
-["TNT Capybara"] = {Class = "Tower", Id = "TNT Capybara", MinAmount = 1},
-["Tower Defense Gift"] = {Class = "Lootbox", Id = "Tower Defense Gift", MinAmount = 50},
-["Tower Defense Gift 2"] = {Class = "Lootbox", Id = "Tower Defense Gift 2", MinAmount = 50},
-["Tower Defense Gift 3"] = {Class = "Lootbox", Id = "Tower Defense Gift 3", MinAmount = 50},
-}
+script_key = "YgtWOvIVrBktVimlToZuonkjfyYaeIXt";
+getgenv().GPROGRESS_MODE = "Hybrid"
+getgenv().GGFX_MODE = 1 --1 = REMOVE_TEXTURES : more stable! but no visuals
+getgenv().GRANK_TO = 99
+getgenv().GZONE_TO = 102-- PLEASE READ FAQ about this property!!! it's important to understand. 99 means last zone W1 only!! 999: go to final zone of game
+getgenv().GMAX_EGG_SLOTS = 50
+getgenv().GMAX_EQUIP_SLOTS = 50
+getgenv().GAUTO_UPGRADE_PETS = false
+getgenv().GHOLD_GIFTS = false
+getgenv().GHOLD_BUNDLES = false
+getgenv().GMAX_ZONE_UPGRADE_COST = 200000
+getgenv().GPOTIONS = {"Coins","Lucky","Treasure Hunter","Walkspeed","Diamonds","Damage"}
+getgenv().GPOTIONS_MAX_TIER = 99
+getgenv().GENCHANTS = {"Tap Power", "Coins", "Treasure Hunter", "Strong Pets", "Criticals", "Diamonds"}
+getgenv().GWEBHOOK_USERID = "" -- your discord userID, not your name. numerical id.
+getgenv().GWEBHOOK_LINK = "" -- a webhook URL from your private discord channel.
+getgenv().GMAIL_RECEIVERS = {""} -- an account to receive hatched Huges etc
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
