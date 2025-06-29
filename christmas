@@ -1,39 +1,15 @@
 setfpscap(5)
-script_key = "YgtWOvIVrBktVimlToZuonkjfyYaeIXt";
-getgenv().GDO_TOWER_DEFENSE = true
-getgenv().GTOWER_DEFENSE_INFINITY_PET = {
-    "Crystal Giraffe",
-    "Nightmare Cyclops",
-    "Blurred Owl",
-    "Nuclear Dominus",
-    "Jetpack Cat",
-    "Arcade Angelus",
-    "Abyssal Turtle",
-    "Disco Ball Agony",
-    "Electric Eel",
-    "Forged Armadillo",
-    "Comet Dragon",
-    "Torpedo Cat",
-    "Rich Corgi",
-    "Shadow Pegasus",
-    "Tech Samurai Axolotl",
-    "Ooze Dragon",
-    "Potion Penguin",
-    "Old Wizard Cat",
-    "Umbrella Elephant",
-    "Frostbyte Griffin",
-    "Detective Bunny",
-    "Knight Chicken",
-    "Flamethrower Spider",
-    "Demolition Panda",
-    "Cyborg Kitsune",
-    "DJ Shark",
-    "Safari Monkey",
-    "Ronin Piggy",
-    "Ninja Dalmatian"
+script_key = "SCOFKlKwtSFXoQKOYnKUCAyCuQqkzIPe";
+getgenv().GDO_GYM_EVENT = true
+getgenv().GGYM_EVENT_STAT_CONFIG = {
+    ["Stamina"] = 27,
+    ["CritChance"] = 8,
+    ["Strength"] = 65,
+    ["Size"] = 1
 }
 
 getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
+getgenv().GLOOTBOXES = {"All"}
 getgenv().GWEBHOOK_USERID = "626903756835127296" -- your discord userID, not your name. numerical id.
 getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1245695779532963981/VCY5eY4E1MVGludmeakcD0yjoQZp1d1RuAZSXL0kyGb0FDj3wG7mVf35pDlkLzhIcY7b" -- a webhook URL from your private discord channel.
 getgenv().GHUGE_COUNT = 0 -- amount of huges to keep/not mail
@@ -47,11 +23,5 @@ getgenv().GMAIL_ITEMS = {
 ["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
 ["Secret pet4"] = {Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1, AllVariants = true},
 ["All Huges"] = {Class = "Pet", Id = "All Huges", MinAmount = 1},
-["Mechanical Griffin"] = {Class = "Tower", Id = "Mechanical Griffin", MinAmount = 1},
-["Zeus Bear"] = {Class = "Tower", Id = "Zeus Bear", MinAmount = 1},
-["TNT Capybara"] = {Class = "Tower", Id = "TNT Capybara", MinAmount = 1},
-["Tower Defense Gift"] = {Class = "Lootbox", Id = "Tower Defense Gift", MinAmount = 50},
-["Tower Defense Gift 2"] = {Class = "Lootbox", Id = "Tower Defense Gift 2", MinAmount = 50},
-["Tower Defense Gift 3"] = {Class = "Lootbox", Id = "Tower Defense Gift 3", MinAmount = 50},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
