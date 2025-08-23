@@ -211,9 +211,9 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Webhook = {
-		UrlPet = "xxx",
-		UrlSeed = "xxx",
-		PcName = "xxx",
+		UrlPet = "https://discord.com/api/webhooks/1245695779532963981/VCY5eY4E1MVGludmeakcD0yjoQZp1d1RuAZSXL0kyGb0FDj3wG7mVf35pDlkLzhIcY7b",
+		UrlSeed = "https://discord.com/api/webhooks/1306008331760177183/JuU-SOh8YyM8JroTq5azVMccoELW3UOX4iI8McxdSwo8Ervopb9gYHJ5xGJG3kCQeko0",
+		PcName = "MAIN",
 
 		Mention = "", -- discord id
 
