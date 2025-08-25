@@ -148,7 +148,7 @@ getgenv().ConfigsKaitun = {
 			"Mythical Egg",
 			"Uncommon Egg",
 			"Common Egg",
-			"Rare Egg",|
+			"Rare Egg",
 			"Legendary Egg",
 		}
 	},
@@ -245,6 +245,7 @@ getgenv().ConfigsKaitun = {
 				"Dragonfly",
 				"Raccoon",
 				"Red Fox",
+				"Griffin",
 			},
 			Pet_Weight_Noti = true,
 		}
