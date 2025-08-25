@@ -244,6 +244,7 @@ getgenv().ConfigsKaitun = {
 				"Dragonfly",
 				"Raccoon",
 				"Red Fox",
+				"Griffin",
 			},
 			Pet_Weight_Noti = true,
 		}
