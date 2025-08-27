@@ -9,7 +9,7 @@ getgenv().ConfigsKaitun = {
 	Collect_Cooldown = 120, -- cooldown to collect fruit
 
 	["Low Cpu"] = true,
-	["Auto Rejoin"] = true,
+	["Auto Rejoin"] = false,
 
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
@@ -18,7 +18,6 @@ getgenv().ConfigsKaitun = {
 
 		["Safe Tree"] = {
             "Moon Blossom",
-            "Bone Blossom",
             "Moon Melon",
             "Maple Apple",
             "Moon Mango",
@@ -74,26 +73,33 @@ getgenv().ConfigsKaitun = {
 		["Bean Event"] = {
 			Minimum_Money = 10_000_000, -- minimum money to start play this event
 		},
-		MaxMoney_Restocks = 10_000_000,
+		MaxMoney_Restocks = 200_000_000,
 		Shop = { -- un comment to buy
-			"Sprout Seed Pack",
-			"Sprout Egg",
-			-- "Mandrake",
-			"Silver Fertilizer",
-			-- "Canary Melon",
-			-- "Amberheart",
-			["Spriggan"] = 8,
-			-- Friend Shop
-			"Skyroot Chest",
-			"Pet Shard GiantBean",
+	  "Sprout Seed Pack",
+      "Sprout Egg",
+      "Silver Fertilizer",
+      ["Spriggan"] = 8,
+      "Skyroot Chest",
+      "Pet Shard GiantBean",
+      "Zen Egg",
+      "Zen Seed Pack",
+      "Spiked Mango",
+      "Pet Shard Tranquil",
+      "Pet Shard Corrupted",
+      "Koi",
+      "Soft Sunshine",
+      "Sakura Bush",
+      "Raiju",
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
+      		"Paradise Egg",
+     	 	"Common Summer Egg",
+      		"Rare Summer Egg",
 		},
 		Craft = {
-			"Anti Bee Egg",
-			"Pet Shard GiantBean",
-			"Sprout Egg",
+		"Skyroot Chest",
+     	"Sprout Egg",
 		},
 		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
@@ -205,7 +211,7 @@ getgenv().ConfigsKaitun = {
 			"Blood Owl",
 			["Starfish"] = 10,
 		},
-		LockPet_Weight = 7, -- if Weight >= 10 they will locked
+		LockPet_Weight = 4 -- if Weight >= 10 they will locked
 		Ignore_Pet_Weight = {
 			"NAME oF PET THAT U DONT NEED LOCK",
 		},
