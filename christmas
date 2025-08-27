@@ -105,7 +105,7 @@ getgenv().ConfigsKaitun = {
   },
 
   LockPet_Weight = 4,
-  Ignore_Pet_Weight = { "Flamingo","Toucan","Orangutan","Bagel Bunny","Seagull","Caterpillar" },
+  Ignore_Pet_Weight = {},
 
   Instant_Sell = {
    "Flamingo","Toucan","Orangutan","Bagel Bunny","Seagull","Caterpillar",
