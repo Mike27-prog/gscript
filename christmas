@@ -11,6 +11,16 @@ getgenv().ConfigsKaitun = {
  ["Auto Rejoin"] = false,
 
  ["Rejoin When Update"] = false,
+["Auto Trade Pet"] = { -- not done yet bro dont use
+		["Enabled"] = false, 
+		["Target"] =  { -- multi users
+			"username1",
+			"username2",
+		},
+		["Pet To Send"] = {
+			
+		}
+	},
  ["Limit Tree"] = {
   ["Limit"] = 150,
   ["Destroy Untill"] = 150,
