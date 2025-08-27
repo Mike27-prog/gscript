@@ -120,6 +120,7 @@ getgenv().ConfigsKaitun = {
 			"Medium Toy",
 		},
 		Lock = {
+			"Grandmaster Sprinkler",
 			"Master Sprinkler",
 			"Godly Sprinkler",
 			"Advanced Sprinkler",
@@ -145,6 +146,7 @@ getgenv().ConfigsKaitun = {
 			"Mythical Egg",
 			"Common Egg",
 			"Rare Egg",
+			"Legendary Egg",
 		},
 		Buy = {
 			"Bee Egg",
@@ -158,6 +160,7 @@ getgenv().ConfigsKaitun = {
 			"Uncommon Egg",
 			"Common Egg",
 			"Rare Egg",
+		 	"Legendary Egg",
 		}
 	},
 
