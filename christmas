@@ -125,5 +125,5 @@ getgenv().ConfigsKaitun = {
    Pet_Weight_Noti = true,
   }
  },
-License = "35TzB7ph8edfQUlXgwup6N5aKz6IwXiY""
+License = "35TzB7ph8edfQUlXgwup6N5aKz6IwXiY"
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Real-Aya/Loader/main/Init.lua'))()
