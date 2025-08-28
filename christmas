@@ -165,7 +165,10 @@ getgenv().ConfigsKaitun = {
 		["Start Delete Pet At"] = 40,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Dairy Cow"] = {8, 100, 1, true},
+				["Dairy Cow"] = {2, 100, 2, true},
+				["Golem"] = {2, 100, 1},               -- mythic utility
+     			["Seedling"] = {2, 100, 3},            -- legendary value
+     			["Jackalope"] = {2, 100, 4}, 
 			},
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
