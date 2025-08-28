@@ -173,9 +173,10 @@ getgenv().ConfigsKaitun = {
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
 				["Golden Goose"] = {2, 100, 3},        -- divine buffing
-      			["Golem"] = {2, 100, 1},               -- mythic utility
+      			["Golem"] = {2, 100, 2},               -- mythic utility
      			["Seedling"] = {2, 100, 2},            -- legendary value
      			["Jackalope"] = {2, 100, 4},  
+				["Dairy Cow"] = {2, 100, 1},
 			},
 		},
 		Unfavorite_AllPet = false,
