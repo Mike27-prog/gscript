@@ -201,7 +201,7 @@ getgenv().ConfigsKaitun = {
 			},
 			SeedPack = { "Idk" },
 			Pets = {
-				"Golden Goose","French Fry Ferret","Corrupted Kitsune","Kitsune",
+				"Griffin","Golden Goose","French Fry Ferret","Corrupted Kitsune","Kitsune",
 				"Spinosaurus","T-Rex","Disco Bee","Butterfly","Mimic Octopus",
 				"Queen Bee","Fennec Fox","Dragonfly","Raccoon","Red Fox",
 			},
