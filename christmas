@@ -1,22 +1,36 @@
 setfpscap(1)
 getgenv().ConfigsKaitun = {
 	Beta_Fix_Data_Sync = true,
+
 	NoDeletePlayer = false,
 
 	["Block Pet Gift"] = true,
+
 	Collect_Cooldown = 120, -- cooldown to collect fruit
 
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = true,
+
 	["Rejoin When Update"] = false,
+
+	["Auto Trade Pet"] = { -- not done yet bro dont use
+		["Enabled"] = false, 
+		["Target"] =  { -- multi users
+			"username1",
+			"username2",
+		},
+		["Pet To Send"] = {
+			
+		}
+	},
 
 	["Limit Tree"] = {
 		["Limit"] = 400,
 		["Destroy Until"] = 400,
 
 		["Safe Tree"] = {
-			-- high profit trees (don’t cut)
 			"Moon Blossom",
+			"Bone Blossom",
 			"Moon Melon",
 			"Maple Apple",
 			"Moon Mango",
@@ -24,24 +38,43 @@ getgenv().ConfigsKaitun = {
 			"Elephant Ears",
 			"Fossilight",
 			"Princess Thorn",
-			"Beanstalk", -- prioritized profit tree
 			-- for the event
-			["Blueberry"] = 15,
-			["Strawberry"] = 15,
-			["Apple"] = 15,
-			["Coconut"] = 15,
-			["Dragon Fruit"] = 15,
-			["Mango"] = 15,
-			["Tomato"] = 20,
-			["Cactus"] = 15,
+			Bamboo = 2,
+			Coconut = 2,
+			Mushroom = 2,
+			Glowthorn = 2,
+			Tomato = 2,
+			Pumpkin = 2,
+			Pepper = 2,
+			Cacao = 2,
+			Apple = 2,
+			Romanesco = 2,
+			["Elder Strawberry"] = 2,
+			["Burning Bud"] = 2,
+			["Giant Pinecone"] = 2,
+			Corn = 2,
+			["Sugar Apple"] = 2,
+			["Ember Lily"] = 2,
+			["Dragon Fruit"] = 2,
+			Sunbulb = 2,
+			["Orange Tulip"] = 2,
+			Blueberry = 2,
+			Watermelon = 2,
+			Mango = 2,
+			Cactus = 2,
+			Strawberry = 2,
+			Beanstalk = 2,
+			Lightshoot = 2,
+			Grape = 2,
+			Daffodil = 2,
 		}
 	},
 
 	Seed = {
 		Buy = {
 			Mode = "Auto", -- Custom , Auto
-			Custom = {
-				"Carrot", -- add more if needed
+			Custom = { -- any fruit u need to place
+				"Carrot",
 			}
 		},
 		Place = {
@@ -50,8 +83,6 @@ getgenv().ConfigsKaitun = {
 				"Carrot"
 			},
 			Lock = {
-				-- keep profitable seeds locked for replant
-				"Beanstalk",
 				"Maple Apple",
 				"Sunflower",
 				"Dragon Pepper",
@@ -66,18 +97,23 @@ getgenv().ConfigsKaitun = {
 	},
 
 	["Seed Pack"] = {
-		Locked = {}
+		Locked = {
+
+		}
 	},
 
 	Events = {
-		["Bean Event"] = {
+		["Fairy Event"] = {
 			Minimum_Money = 10_000_000, -- minimum money to start play this event
 		},
-		MaxMoney_Restocks = 200_000_000,
-		Shop = {
+		MaxMoney_Restocks = 10_000_000,
+		Shop = { -- un comment to buy
 			"Sprout Seed Pack",
 			"Sprout Egg",
+			-- "Mandrake",
 			"Silver Fertilizer",
+			-- "Canary Melon",
+			-- "Amberheart",
 			["Spriggan"] = 8,
 			-- Friend Shop
 			"Skyroot Chest",
@@ -87,11 +123,13 @@ getgenv().ConfigsKaitun = {
 			"Bee Egg",
 		},
 		Craft = {
+			"Anti Bee Egg",
+			"Pet Shard GiantBean",
 			"Sprout Egg",
-			"Skyroot Chest",
 		},
-		Start_Do_Honey = 2_000_000 -- start trade fruit for honey
+		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
+
 
 	Gear = {
 		Buy = { 
