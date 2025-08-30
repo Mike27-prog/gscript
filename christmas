@@ -209,24 +209,29 @@ getgenv().ConfigsKaitun = {
 		}
 	},
 
-	Pets = {
+		Pets = {
 		["Auto Feed"] = true,
+
+		MutationPet = {
+			"PET NAME"
+		},
 
 		["Start Delete Pet At"] = 40,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Dairy Cow"] = {2, 100, 2, true},
-				["Golem"] = {2, 100, 1},               -- mythic utility
-     			["Seedling"] = {2, 100, 3},            -- legendary value
-     			["Jackalope"] = {2, 100, 4}, 
+				["Starfish"] = { 1, 100, 1, true }, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
+				["Ladybug"] = {2, 100, 1},
+				["Pixie"] = {1, 100, 2},
 			},
-			["Limit Upgrade"] = 5,
+			["Limit Upgrade"] = 5, -- max is 5 (more than or lower than 1 will do nothing)
 			["Equip When Done"] = {
-				["Golden Goose"] = {2, 100, 3},        -- divine buffing
-      			["Golem"] = {2, 100, 2},               -- mythic utility
-     			["Seedling"] = {2, 100, 2},            -- legendary value
-     			["Jackalope"] = {2, 100, 4},  
-				["Dairy Cow"] = {2, 100, 1},
+				["Glimmering Sprite"] = {8, 100, 1},
+				["Tanchozuru"] = { 5, 100, 2 }, -- 5 on the first mean equip only 5 | pet , 100 mean equip only level pet lower than 100 | the one on the last is priority it will ues first if possible 
+				["Ostrich"] = { 3, 100, 2 },
+				["Blood Kiwi"] = { 8, 100 },
+				["Seal"] = { 8, 100 },
+				["Rooster"] = { 8, 100 },
+				["Starfish"] = { 5, 75 },
 			},
 		},
 		Unfavorite_AllPet = false,
