@@ -161,7 +161,7 @@ getgenv().ConfigsKaitun = {
      			["Seedling"] = {2, 100, 3},            -- legendary value
      			["Jackalope"] = {2, 100, 4}, 
 			},
-			["Limit Upgrade"] = 2,
+			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
 				["Golden Goose"] = {2, 100, 3},        -- divine buffing
       			["Golem"] = {2, 100, 2},               -- mythic utility
