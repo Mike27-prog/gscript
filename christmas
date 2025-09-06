@@ -168,6 +168,7 @@ getgenv().ConfigsKaitun = {
 
 	Gear = {
 		Buy = { 
+			"Grandmaster Sprinkler",
 			"Master Sprinkler",
 			"Godly Sprinkler",
 			"Advanced Sprinkler",
@@ -179,6 +180,7 @@ getgenv().ConfigsKaitun = {
 			"Harvest Tool",
 		},
 		Lock = {
+			"Grandmaster Sprinkler",
 			"Master Sprinkler",
 			"Godly Sprinkler",
 			"Advanced Sprinkler",
@@ -191,6 +193,9 @@ getgenv().ConfigsKaitun = {
 		Place = {
 			"Enchanted Egg",
 			"Sprout Egg",
+			"Legendary Egg",
+			"Mythical Egg",
+			"Rare Egg",
 			"Gourmet Egg",
 			"Zen Egg",
 			"Primal Egg",
