@@ -181,6 +181,7 @@ Events = {
 			"Harvest Tool",
 		},
 		Lock = {
+			"Level Up Lollipop",
 			"Grandmaster Sprinkler",
 			"Master Sprinkler",
 			"Godly Sprinkler",
@@ -254,6 +255,7 @@ Events = {
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 60, -- pet that age > 60 will lock
 		Locked = {
+			"Luminous Sprite",
 			"Phoenix",
 			"Cockatrice",
 			"Griffin",
