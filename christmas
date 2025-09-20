@@ -23,6 +23,13 @@ getgenv().ConfigsKaitun = {
 			
 		}
 	},
+Ascend = {
+		Enabled = false,
+		Max_Rebirth_Money = 1_000_000_000_000,
+		Shop = {
+			"Egg Capacity"
+		}
+	},
 
 	["Limit Tree"] = {
 		["Limit"] = 400,
@@ -139,6 +146,7 @@ getgenv().ConfigsKaitun = {
 		
 		Shop = { -- un comment to buy
 			"Fall Egg",
+			"Red Panda",
 
 			"Enchanted Chest",
 			"Pet Shard Glimmering",
