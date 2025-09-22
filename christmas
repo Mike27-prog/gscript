@@ -145,6 +145,7 @@ Ascend = {
 		MaxMoney_Restocks = 10_000_000,
 		
 		Shop = { -- un comment to buy
+			"Space Squirrel",
 			"Fall Egg",
 			"Red Panda",
 
@@ -328,6 +329,7 @@ Ascend = {
 				"Idk"
 			},
 			Pets = {
+				"Space Squirrel",
 				"Red Panda",
 				"Swan",
 				"Phoenix",
