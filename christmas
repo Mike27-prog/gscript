@@ -146,9 +146,10 @@ Ascend = {
 		
 		Shop = { -- un comment to buy
 			
-			"Fall Egg",
+			
 			"Red Panda",
 			"Space Squirrel",
+			"Salmon",
 
 			"Enchanted Chest",
 			"Pet Shard Glimmering",
@@ -271,6 +272,7 @@ Ascend = {
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 100, -- pet that age > 60 will lock
 		Locked = {
+			"Salmon",
 			"Red Panda",
 			"Space Squirrel",
 			"Swan",
