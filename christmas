@@ -146,6 +146,10 @@ Ascend = {
 		
 		Shop = { -- un comment to bu
 			"Enchanted Egg",
+            "Evo Beetroot I",
+			"Evo Blueberry I",
+			"Evo Pumpkin I",
+			"Evo Mushroom I",
 			"Enchanted Chest",
 			"Pet Shard Glimmering",
 			"Enchanted Egg",
