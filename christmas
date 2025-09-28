@@ -271,6 +271,10 @@ Ascend = {
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 100, -- pet that age > 60 will lock
 		Locked = {
+           "Evo Beetroot I",
+			"Evo Blueberry I",
+			"Evo Pumpkin I",
+			"Evo Mushroom I",
 			"Red Panda",
 			"Space Squirrel",
 			"Swan",
@@ -331,6 +335,10 @@ Ascend = {
 				"Idk"
 			},
 			Pets = {
+                "Evo Beetroot I",
+			    "Evo Blueberry I",
+			    "Evo Pumpkin I",
+			    "Evo Mushroom I",
 				"Space Squirrel",
 				"Red Panda",
 				"Swan",
