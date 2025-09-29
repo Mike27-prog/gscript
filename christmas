@@ -218,6 +218,9 @@ Ascend = {
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 100, -- pet that age > 60 will lock
 		Locked = {
+			"Mizuchi",
+			"Firefly",
+			"Silver Dragonfly",
 			"Red Panda",
 			"Space Squirrel",
 			"Swan",
@@ -278,6 +281,9 @@ Ascend = {
 				"Idk"
 			},
 			Pets = {
+				"Mizuchi",
+				"Firefly",
+				"Silver Dragonfly",
 				"Tiger",
 				"Space Squirrel",
 				"Red Panda",
