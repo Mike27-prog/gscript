@@ -160,7 +160,6 @@ Ascend = {
 	},
 	Eggs = {
 		Place = {
-			"Jungle Egg",
 			"Fall Egg",
 			"Legendary Egg",
 			"Rare Egg",
